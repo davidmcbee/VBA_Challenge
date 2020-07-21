@@ -26,7 +26,7 @@ In this challenge, the VBA_Challenge.xlsm file, [VBA_Challenge.xlsm] (https://gi
 ## VBA Challenge Code Review
 In this version the same section of code that was done in 2 loops in the All Stocks Analysis subroutine is now done in one loop. The entire code can be viewed in the VBS_Challenge_Code.txt file [VBA_Challenge_Code.txt] (https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBS_Challenge_Code.txt). The  relevant difference, stated in pseudo code is
 
-### VBBA Challenge Pseudocode
+### VBA Challenge Pseudocode
 *Create 4 arrays, the original ticker array, a volume array a starting price array and an ending price array.
 *Using a ticker index to fill the appropriate array cell and keep all arrays in sync, loop through all the stock rows, 3112, filling the ticker volumes, the ticker starting prices and the ticker ending prices. An added part to this loop is to increase the ticker index after the loop has gotten through all the instances of a particular index. This precludes having to have 2 loops.
 
