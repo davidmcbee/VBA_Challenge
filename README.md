@@ -6,7 +6,7 @@ There are two primary purposes of this analysis. One, it provides additional pra
 The scenario for this analysis is that Steve is creating this VBA driven Excel analysis to help his parents make a smart choice in investing in renewable energy stocks. Looking into the initial stock his parents recommended, DQ, which stands for DAQO New Energy Corporation, Steve realized he would need to include other renewable energy stocks in his analysis.
 
 ## Initial Module 2 Scenario Analysis
-The module 2 analysis See the green_stocks_20200715.xlsm file here, provided 12 stocks and the following metrics for those stocks over 2017 and 2018. Table 1 is a sample showing all the stocks and one line of metrics for each of those stocks for 2017. See above link for entire data set
+The module 2 analysis See the green_stocks_20200715.xlsm file here, [VBA_Challenge.xlsm]  provided 12 stocks and the following metrics for those stocks over 2017 and 2018. Table 1 is a sample showing all the stocks and one line of metrics for each of those stocks for 2017. See above link for entire data set
 
 The module 2 analysis resulted in the DQ Analysis worksheet. This analysis for 2018 shows that the return for DQ for 2018 was negative 62.6 percent. This dismal answer prompted the analysis of all 12 stocks, shown in the All Stocks Analysis worksheet.
 Module 2 Code Review
