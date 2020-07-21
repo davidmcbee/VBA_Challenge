@@ -6,19 +6,21 @@ There are two primary purposes of this analysis. One, it provides additional pra
 The scenario for this analysis is that Steve is creating this VBA driven Excel analysis to help his parents make a smart choice in investing in renewable energy stocks. Looking into the initial stock his parents recommended, DQ, which stands for DAQO New Energy Corporation, Steve realized he would need to include other renewable energy stocks in his analysis.
 
 ## Initial Module 2 Scenario Analysis
-The module 2 analysis See the green_stocks_20200715.xlsm file, [VBA_Challenge.xlsm] (https://github.com/davidmcbee/stock-analysis.git) provided 12 stocks and the following metrics for those stocks over 2017 and 2018. Table 1 is a sample showing all the stocks and one line of metrics for each of those stocks for 2017. See above link for entire data set
+The module 2 analysis See the green_stocks_20200715.xlsm file, [green_stocks_20200715.xlsm] (https://github.com/davidmcbee/stock-analysis.git) provided 12 stocks and the following metrics for those stocks over 2017 and 2018. Table 1 is a sample showing all the stocks and one line of metrics for each of those stocks for 2017. See above link for entire data set
 ![](./Module2Resources/TickerSymbolExample.png) Table 1/2017 Data Example
 The module 2 analysis resulted in the DQ Analysis worksheet. This analysis for 2018 shows that the return for DQ for 2018 was negative 62.6 percent. This dismal answer prompted the analysis of all 12 stocks, shown in the All Stocks Analysis worksheet.
 
-##Module 2 Code Review
+## Module 2 Code Review
 The primary goal of coding the VBA for this All Stocks Analysis, aside from practice in VBA, was to use a loop and a sub loop to progress through the 12 stocks, the outer loop, and to progress through all rows in the analysis, 3012 rows containing stocks (3013 – the header row), the inner loop. You can refer to the Module2AllStocksAnalysis.txt file [Module2AllStockAnalysis.txt] (https://github.com/davidmcbee/VBA_Challenge/blob/VBA_Challenge_Edits/Module2Resources/Module2AllStockAnalysis.txt) for the entire code in the All Stocks Analysis subroutine but the pertinent section is as follows
 
-###Pseudocode
-Using the I = 9 to 11 loop for the ticker array which contains the 12 stock tickers.
- For each stock ticker in the outer loop, loop through all rows, 3012 rows, the inner loop, to find the yearly volume, the starting price and the ending price for the stock ticker that the outer loop is on.
+### Pseudocode
+* Using the I = 9 to 11 loop for the ticker array which contains the 12 stock tickers.
+* For each stock ticker in the outer loop, loop through all rows, 3012 rows, the inner loop, to find the yearly volume, the starting price and the ending price for the stock ticker that the outer loop is on.
+
 This analysis provides the desired result, shown in the All Stocks Analysis worksheet but the performance of using those 2 loops in this way is inefficient, which will be explained in the conclusions below.
-VBA Challenge Analysis
-In this challenge, the VBA_Challenge.xlsm file, located here, the All Stocks Analysis was redone to refactor the code, the 2nd main purpose of this analysis. Note that both the code for the original All Stocks Analysis, subroutine All Stocks Analysis as well as the All Stocks Analysis Refactored subroutine code are contained in the VBA_Challenge.xlsm file
+
+## VBA Challenge Analysis
+In this challenge, the VBA_Challenge.xlsm file,  located here, the All Stocks Analysis was redone to refactor the code, the 2nd main purpose of this analysis. Note that both the code for the original All Stocks Analysis, subroutine All Stocks Analysis as well as the All Stocks Analysis Refactored subroutine code are contained in the VBA_Challenge.xlsm file
 BBA Challenge Code Review
 In this version the same section of code that was done in 2 loops in the All Stocks Analysis subroutine is now done in one loop. The entire code can be viewed in the VBS_Challenge_Code.txt file here. The  relevant difference, stated in pseudo code is
 VBBA Challenge Pseudocode
