@@ -7,12 +7,13 @@ The scenario for this analysis is that Steve is creating this VBA driven Excel a
 
 ## Initial Module 2 Scenario Analysis
 The module 2 analysis See the green_stocks_20200715.xlsm file, [VBA_Challenge.xlsm] (https://github.com/davidmcbee/stock-analysis.git) provided 12 stocks and the following metrics for those stocks over 2017 and 2018. Table 1 is a sample showing all the stocks and one line of metrics for each of those stocks for 2017. See above link for entire data set
-![](./Module2Resources/TickerSymbolExample.png)
-
+![](./Module2Resources/TickerSymbolExample.png) Table 1/2017 Data Example
 The module 2 analysis resulted in the DQ Analysis worksheet. This analysis for 2018 shows that the return for DQ for 2018 was negative 62.6 percent. This dismal answer prompted the analysis of all 12 stocks, shown in the All Stocks Analysis worksheet.
-Module 2 Code Review
-The primary goal of coding the VBA for this All Stocks Analysis, aside from practice in VBA, was to use a loop and a sub loop to progress through the 12 stocks, the outer loop, and to progress through all rows in the analysis, 3012 rows containing stocks (3013 – the header row), the inner loop. You can refer to the Module2AllStocksAnalysis.txt file for the entire code in the All Stocks Analysis subroutine but the pertinent section is as follows
-Pseudocode
+
+##Module 2 Code Review
+The primary goal of coding the VBA for this All Stocks Analysis, aside from practice in VBA, was to use a loop and a sub loop to progress through the 12 stocks, the outer loop, and to progress through all rows in the analysis, 3012 rows containing stocks (3013 – the header row), the inner loop. You can refer to the Module2AllStocksAnalysis.txt file [ for the entire code in the All Stocks Analysis subroutine but the pertinent section is as follows
+
+###Pseudocode
 Using the I = 9 to 11 loop for the ticker array which contains the 12 stock tickers.
  For each stock ticker in the outer loop, loop through all rows, 3012 rows, the inner loop, to find the yearly volume, the starting price and the ending price for the stock ticker that the outer loop is on.
 This analysis provides the desired result, shown in the All Stocks Analysis worksheet but the performance of using those 2 loops in this way is inefficient, which will be explained in the conclusions below.
