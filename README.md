@@ -7,7 +7,7 @@ The scenario for this analysis is that Steve is creating this VBA driven Excel a
 
 ## Initial Module 2 Scenario Analysis
 The module 2 analysis See the green_stocks_20200715.xlsm file, [VBA_Challenge.xlsm] (https://github.com/davidmcbee/stock-analysis.git) provided 12 stocks and the following metrics for those stocks over 2017 and 2018. Table 1 is a sample showing all the stocks and one line of metrics for each of those stocks for 2017. See above link for entire data set
-
+(https://github.com/davidmcbee/VBA_Challenge/blob/VBA_Challenge_Edits/Module2Resources/TickerSymbolExample.png)
 
 The module 2 analysis resulted in the DQ Analysis worksheet. This analysis for 2018 shows that the return for DQ for 2018 was negative 62.6 percent. This dismal answer prompted the analysis of all 12 stocks, shown in the All Stocks Analysis worksheet.
 Module 2 Code Review
