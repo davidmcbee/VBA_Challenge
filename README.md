@@ -43,8 +43,14 @@ The results of factoring the code show a significant difference in performance b
 Please refer to the Performance Results worksheet in the VBA_Challenge.xlsm file. There was an 82.2 percent improvement between the two subroutines. The refactored code is significantly better. Let’s look at the reason why. In the original subroutine. The inner loop goes through every row to store the volume, starting and ending prices for one ticker symbol. There are 249 rows of data per stock ticker. This means each inner loop goes through 3012 rows in order to capture data for 249 of those rows. The extra 2,763 rows it transverses provide no value. This is then multiplied by 12, the 12 ticker symbols representing the outer loop. This results in 33,156 wasted steps.
 
 ### Refactroing Results over Multiple Runs
-first, lets look at the difference between 2017 and 2018 for both the original and refactored subroutines. One can see from the Perfromance Results worksheet and figures 1 and 2 below that there is no meaningfull differene in performance between 2017 and 2018.
+first, lets look at the difference between 2017 and 2018 for both the original and refactored subroutines. One can see from the Perfromance Results worksheet and figures 1 and 2 below that the diffence in subroutines for 2017 showed a 82.2 percent improvement in elapsed time. Figure 2 shows a 82.1 percent improvment in elapsed time. The average elapsed  time difference for both 2017 and 2018 is 82.2 percent.  there is no meaningfull differene in performance between 2017 and 2018.
 ![](https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBA_Challenge_2017.png)
+Figure 1
+![](https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBA_Challenge_2018.png)
+Figure 2
+
+
+
 I diverged from the instructions for creating pictures of the run times and including them but, I believe it is for a good reason. I ran each 2017 and 2018 worksheet, for both the subroutines, 10 times. The results are in the Performance Results worksheet in the VBA_Challenge.xlsm file. I wanted to understand if the differences in time between each run changed. Was there a difference in times between the 1st run and subsequent runs? Were the run times increasing, decreasing or fairly consistent?
 
 #### Initial and subsequent Run Conclusion
