@@ -27,7 +27,7 @@ This analysis provides the desired result, shown in the All Stocks Analysis work
 In this challenge, the VBA_Challenge.xlsm file, [VBA_Challenge.xlsm] (https://github.com/davidmcbee/VBA_Challenge/blob/master/VBA_Challenge.xlsm), the All Stocks Analysis was redone to refactor the code, the 2nd main purpose of this analysis. Note that both the code for the original All Stocks Analysis, subroutine All Stocks Analysis as well as the All Stocks Analysis Refactored subroutine code are contained in the VBA_Challenge.xlsm file
 
 ## VBA Challenge Code Review
-In this version the same section of code that was done in 2 loops in the All Stocks Analysis subroutine is now done in one loop. The entire code can be viewed in the VBS_Challenge_Code.txt file [VBA_Challenge_Code.txt] (https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBS_Challenge_Code.txt). The  relevant difference, stated in pseudo code is
+In this version the same section of code that was done in 2 loops in the original All Stocks Analysis subroutine is now done in one loop. The entire code can be viewed in the VBS_Challenge_Code.txt file [VBA_Challenge_Code.txt] (https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBS_Challenge_Code.txt). The  relevant difference, stated in pseudo code is
 
 ### VBA Challenge Pseudocode
 *Create 4 arrays, the original ticker array, a volume array a starting price array and an ending price array.
@@ -43,6 +43,8 @@ The results of factoring the code show a significant difference in performance b
 Please refer to the Performance Results worksheet in the VBA_Challenge.xlsm file. There was an 82.2 percent improvement between the two subroutines. The refactored code is significantly better. Let’s look at the reason why. In the original subroutine. The inner loop goes through every row to store the volume, starting and ending prices for one ticker symbol. There are 249 rows of data per stock ticker. This means each inner loop goes through 3012 rows in order to capture data for 249 of those rows. The extra 2,763 rows it transverses provide no value. This is then multiplied by 12, the 12 ticker symbols representing the outer loop. This results in 33,156 wasted steps.
 
 ### Refactroing Results over Multiple Runs
+first, lets look at the difference between 2017 and 2018 for both the original and refactored subroutines. One can see from the Perfromance Results worksheet and figures 1 and 2 below that there is no meaningfull differene in performance between 2017 and 2018.
+
 I diverged from the instructions for creating pictures of the run times and including them but, I believe it is for a good reason. I ran each 2017 and 2018 worksheet, for both the subroutines, 10 times. The results are in the Performance Results worksheet in the VBA_Challenge.xlsm file. I wanted to understand if the differences in time between each run changed. Was there a difference in times between the 1st run and subsequent runs? Were the run times increasing, decreasing or fairly consistent?
 
 #### Initial and subsequent Run Conclusion
