@@ -44,7 +44,7 @@ Please refer to the Performance Results worksheet in the VBA_Challenge.xlsm file
 
 ### Refactroing Results over Multiple Runs
 first, lets look at the difference between 2017 and 2018 for both the original and refactored subroutines. One can see from the Perfromance Results worksheet and figures 1 and 2 below that there is no meaningfull differene in performance between 2017 and 2018.
-
+![](https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBA_Challenge_2017.png)
 I diverged from the instructions for creating pictures of the run times and including them but, I believe it is for a good reason. I ran each 2017 and 2018 worksheet, for both the subroutines, 10 times. The results are in the Performance Results worksheet in the VBA_Challenge.xlsm file. I wanted to understand if the differences in time between each run changed. Was there a difference in times between the 1st run and subsequent runs? Were the run times increasing, decreasing or fairly consistent?
 
 #### Initial and subsequent Run Conclusion
