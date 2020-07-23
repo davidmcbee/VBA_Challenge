@@ -12,7 +12,7 @@ The module 2 analysis, see the green_stocks_20200715.xlsm file [green_stocks_202
 *Table 1/2017 Data Example
 
 
-he module 2 analysis resulted in the DQ Analysis worksheet. This analysis for 2018 shows that the return for DQ for 2018 was negative 62.6 percent. This dismal answer prompted the analysis of all 12 stocks, shown in the All Stocks Analysis worksheet.
+the module 2 analysis resulted in the DQ Analysis worksheet. This analysis for 2018 shows that the return for DQ for 2018 was negative 62.6 percent. This dismal answer prompted the analysis of all 12 stocks, shown in the All Stocks Analysis worksheet.
 
 ## Module 2 Code Review
 The primary goal of coding the VBA for this All Stocks Analysis, aside from practice in VBA, was to use a loop and a sub loop to progress through the 12 stocks, the outer loop, and to progress through all rows in the analysis, 3012 rows containing stocks (3013 – the header row), the inner loop. You can refer to the Module2AllStocksAnalysis.txt file [Module2AllStockAnalysis.txt] (https://github.com/davidmcbee/VBA_Challenge/blob/VBA_Challenge_Edits/Module2Resources/Module2AllStockAnalysis.txt) for the entire code in the All Stocks Analysis subroutine but the pertinent section is as follows
