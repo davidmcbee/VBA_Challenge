@@ -1,5 +1,4 @@
 # VBA_Challenge
-
 ## VBA Challenge Project Overview
 There are two primary purposes of this analysis. One, it provides additional practice in coding in VBA and two, it provides practice and understanding the value of refactoring one’s code.
 
