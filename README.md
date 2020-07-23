@@ -55,13 +55,10 @@ I diverged from the instructions for creating pictures of the run times and incl
 
 #### Initial and subsequent Run Conclusion
 I found that, with one exception, the original All Stocks Analysis run for 2018, all the times decreased between the 1st run and the 2nd run. I rebooted my computer between each set of runs to ensure cache and in memory storage was not a factor. See Figures 4 and 5
-![](https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBA_Challenge_Not_Factored.png
+![](https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBA_Challenge_Not_Factored.png)
 Figure 4
 ![](https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBA_Challenge_Refactored.png)
 Figure 5
-
-
-
 
 #### Consistency of Elapsed Run Times
 I also conclude that runs 2 through 10 did not have an appreciable slope. That is, they did not tend to increase or decrease in elapsed time of the runs but, the difference in times between the two subroutines showed an 11.7 percent decrease in in elapsed time differences. The elapsed time were more consistent. My assumption is that this is due to the 82.2 percent improvement in the elapsed time of the refactored subroutine; the less elapsed time the less the differences between runs.     
