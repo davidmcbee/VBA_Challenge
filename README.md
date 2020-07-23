@@ -1,13 +1,16 @@
 # VBA_Challenge
 ## VBA Challenge Project Overview
-There are two primary purposes of this analysis. One, it provides additional practice in coding in VBA and two, it provides practice and understanding the value of refactoring one’s code.
+There are two primary purposes of this analysis. One, it provides additional practice in coding in VBA, especially in how loops work and two, it provides practice in and understanding the value of refactoring one’s code.
 
 ## The Scenario
 The scenario for this analysis is that Steve is creating this VBA driven Excel analysis to help his parents make a smart choice in investing in renewable energy stocks. Looking into the initial stock his parents recommended, DQ, which stands for DAQO New Energy Corporation, Steve realized he would need to include other renewable energy stocks in his analysis.
 
 ## Initial Module 2 Scenario Analysis
-The module 2 analysis See the green_stocks_20200715.xlsm file, [green_stocks_20200715.xlsm] (https://github.com/davidmcbee/stock-analysis.git) provided 12 stocks and the following metrics for those stocks over 2017 and 2018. Table 1 is a sample showing all the stocks and one line of metrics for each of those stocks for 2017. See above link for entire data set
-![](./Module2Resources/TickerSymbolExample.png) Table 1/2017 Data Example
+The module 2 analysis, see the green_stocks_20200715.xlsm file [green_stocks_20200715.xlsm] (https://github.com/davidmcbee/stock-analysis.git), provided 12 stocks and the following metrics, in table 1, for those stocks over 2017 and 2018. This table is a sample showing all the stocks and one line of metrics for each of those stocks for 2017.
+![](./Module2Resources/TickerSymbolExample.png)
+*Table 1/2017 Data Example
+
+ See above link for entire data set
 
 The module 2 analysis resulted in the DQ Analysis worksheet. This analysis for 2018 shows that the return for DQ for 2018 was negative 62.6 percent. This dismal answer prompted the analysis of all 12 stocks, shown in the All Stocks Analysis worksheet.
 
