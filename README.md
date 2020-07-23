@@ -18,10 +18,10 @@ The module 2 analysis resulted in the DQ Analysis worksheet. This analysis for 2
 The primary goal of coding the VBA for this All Stocks Analysis, aside from practice in VBA, was to use a loop and a sub loop to progress through the 12 stocks, the outer loop, and to progress through all rows in the analysis, 3012 rows containing stocks (3013 – the header row), the inner loop. You can refer to the Module2AllStocksAnalysis.txt file [Module2AllStockAnalysis.txt] (https://github.com/davidmcbee/VBA_Challenge/blob/VBA_Challenge_Edits/Module2Resources/Module2AllStockAnalysis.txt) for the entire code in the All Stocks Analysis subroutine but the pertinent section is as follows
 
 ### Pseudocode
-* Using the I = 9 to 11 loop for the ticker array which contains the 12 stock tickers.
+* Using the i = 9 to 11 outer loop for the ticker array which contains the 12 stock tickers.
 * For each stock ticker in the outer loop, loop through all rows, 3012 rows, the inner loop, to find the yearly volume, the starting price and the ending price for the stock ticker that the outer loop is on.
 
-This analysis provides the desired result, shown in the All Stocks Analysis worksheet but the performance of using those 2 loops in this way is inefficient, which will be explained in the conclusions below.
+This analysis provides the desired result, shown in the All Stocks Analysis worksheet but the performance of using those 2 loops in this way is inefficient, which will be explained in the results section below.
 
 ## VBA Challenge Analysis
 In this challenge, the VBA_Challenge.xlsm file, [VBA_Challenge.xlsm] (https://github.com/davidmcbee/VBA_Challenge.git), the All Stocks Analysis was redone to refactor the code, the 2nd main purpose of this analysis. Note that both the code for the original All Stocks Analysis, subroutine All Stocks Analysis as well as the All Stocks Analysis Refactored subroutine code are contained in the VBA_Challenge.xlsm file
