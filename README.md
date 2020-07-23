@@ -48,13 +48,15 @@ first, lets look at the difference between 2017 and 2018 for both the original a
 Figure 1
 ![](https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBA_Challenge_2018.png)
 Figure 2
+![](https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBA_Challenge_Comparison.png
+Figure 3
 
-
-
-I diverged from the instructions for creating pictures of the run times and including them but, I believe it is for a good reason. I ran each 2017 and 2018 worksheet, for both the subroutines, 10 times. The results are in the Performance Results worksheet in the VBA_Challenge.xlsm file. I wanted to understand if the differences in time between each run changed. Was there a difference in times between the 1st run and subsequent runs? Were the run times increasing, decreasing or fairly consistent?
+I diverged from the instructions for creating pictures of the run times and including them but, I believe it is for a good reason. I ran each 2017 and 2018 worksheet, for both the subroutines, 10 times. The results are in the Performance Results worksheet in the VBA_Challenge.xlsm file. I wanted to understand if the differences in time between each run changed and was there a difference in times between the 1st run and subsequent runs? Were the run times increasing, decreasing or fairly consistent?
 
 #### Initial and subsequent Run Conclusion
-I found that, with one exception, the original All Stocks Analysis run for 2018, all the times decreased between the 1st run and the 2nd run. I rebooted my computer between each set of runs to ensure cache and in memory storage was not a factor.
+I found that, with one exception, the original All Stocks Analysis run for 2018, all the times decreased between the 1st run and the 2nd run. I rebooted my computer between each set of runs to ensure cache and in memory storage was not a factor. See Figures 4 and 5
+
+
 
 #### Consistency of Elapsed Run Times
 I also conclude that runs 2 through 10 did not have an appreciable slope. That is, they did not tend to increase or decrease in elapsed time of the runs but, the difference in times between the two subroutines showed an 11.7 percent decrease in in elapsed time differences. The elapsed time were more consistent. My assumption is that this is due to the 82.2 percent improvement in the elapsed time of the refactored subroutine; the less elapsed time the less the differences between runs.     
