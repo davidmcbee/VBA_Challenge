@@ -24,7 +24,7 @@ The primary goal of coding the VBA for this All Stocks Analysis, aside from prac
 This analysis provides the desired result, shown in the All Stocks Analysis worksheet but the performance of using those 2 loops in this way is inefficient, which will be explained in the results section below.
 
 ## VBA Challenge Analysis
-In this challenge, the VBA_Challenge.xlsm file, [VBA_Challenge.xlsm] (https://github.com/davidmcbee/VBA_Challenge.git), the All Stocks Analysis was redone to refactor the code, the 2nd main purpose of this analysis. Note that both the code for the original All Stocks Analysis, subroutine All Stocks Analysis as well as the All Stocks Analysis Refactored subroutine code are contained in the VBA_Challenge.xlsm file
+In this challenge, the VBA_Challenge.xlsm file, [VBA_Challenge.xlsm] (https://github.com/davidmcbee/VBA_Challenge/blob/master/VBA_Challenge.xlsm), the All Stocks Analysis was redone to refactor the code, the 2nd main purpose of this analysis. Note that both the code for the original All Stocks Analysis, subroutine All Stocks Analysis as well as the All Stocks Analysis Refactored subroutine code are contained in the VBA_Challenge.xlsm file
 
 ## VBA Challenge Code Review
 In this version the same section of code that was done in 2 loops in the All Stocks Analysis subroutine is now done in one loop. The entire code can be viewed in the VBS_Challenge_Code.txt file [VBA_Challenge_Code.txt] (https://github.com/davidmcbee/VBA_Challenge/blob/master/Module2Resources/VBS_Challenge_Code.txt). The  relevant difference, stated in pseudo code is
